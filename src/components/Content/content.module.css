@@ -1,0 +1,167 @@
+.contentItem {
+    padding: 0px;
+    color: aliceblue;
+    display: grid;
+    grid-template-rows: 10% 8% 10%;
+    padding: 8% 15%;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+
+}
+
+
+.content {
+    background: url('https://images.pexels.com/photos/783745/pexels-photo-783745.jpeg?auto=compress&cs=tinysrgb&w=1600');
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.5); 
+    background-blend-mode: multiply; /* Применяем режим смешивания 'multiply' для более темного эффекта */
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+
+}
+
+.Logo {
+    margin-left: 50%;
+    /* height: 110vh; */
+    margin-top: -240px;
+    position: absolute;
+}
+
+.button {
+    background-color: #b31400;
+    width: 50%;
+    height: 50px;
+    border-color: linear-gradient(90deg, rgb(19, 18, 18), rgb(61, 60, 60));
+    border-radius: 50px;
+    margin-left: 20%;
+    font-size: 15px;
+    font-weight: 400;
+    color: aliceblue;
+
+
+}
+
+.textOfBox {
+    color: rgb(52, 52, 52);
+    font-weight: 600;
+    width: 70%;
+    margin-top: 15%;
+    margin-left: 15%;
+    text-align: left;
+    font-size: 15px;
+}
+
+.textTitle {
+    font-weight: 800;
+    margin-bottom: 0px;
+    font-size: 46px;
+    line-height: 0.1px;
+    font-family: 'TildaSans', Arial, sans-serif;
+    /* padding: 20px; */
+    padding-left: 5%;
+}
+
+.text {
+    font-weight: 300;
+    font-style: italic;
+    font-size: 25px;
+    text-align: left;
+    color: #b9c1cccc !important;
+    margin: 0px;
+    padding-left: 10%;
+
+}
+
+.logoFlex {
+    width: 20px;
+}
+
+.h3 {
+    margin: 0;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.flex {
+    display: grid;
+    grid-template-areas: 'flexItem1 flexItem2';
+    grid-template-rows: 50% 50%;
+    margin-left: 8%;
+}
+
+.flexItem1 {
+    text-align: center;
+    padding: 40px 10px;
+    width: 300px;
+}
+
+.flexItem2 {
+    text-align: center;
+    padding: 10px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    display: flex;
+    height: 10px;
+
+}
+
+.box1 {
+    width: 350px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 40px;
+    margin-top: 20px;
+    /* position: absolute; */
+    margin-left: 100px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+}
+
+.box2 {
+    width: 350px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 40px;
+    margin-top: 100px;
+    margin-left: 50px;
+    /* position: absolute; */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.banner {
+    /* width: 100vw; */
+    margin-top: 100px;
+}
+
+.batton {
+    width: 250px;
+    height: 40px;
+    margin-bottom: 700px;
+
+}
+.ServicesMenu{
+    display: flex;
+}
+.items{
+    margin: 20px;
+    width: 300px;
+    height: 400px;
+    background-color: aliceblue;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+    margin: 15% 30%;
+    width: 50%;
+}
